@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    background-color: #e3d5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(chubby.jpg);
+    /* background-size:contain; */
+} 
+#head{
+    /* height:550px;
+    width:550px; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+#fact{
+    height: 550px;
+    width:800px;
+    background-color: #f1efec;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 6%;
+}
+button{
+    height:25px;
+    width:120px;
+    border-radius: 10px;
+    background-color: #d6ccc2;
+}
+#answer{
+    text-align: center;
+    font-size: 20px;
+}
